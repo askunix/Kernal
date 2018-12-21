@@ -1,0 +1,115 @@
+//dup2函数应用
+
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+#define MSGSIZE 20
+#define READ 0 
+#define WRITE 1
+
+int main(int argc, char const *argv[])
+{
+    int p[2], bytes, res, c;
+    char inbuf[10240];
+    int pid;
+    printf("%c", 11);
+	
+    if(pipe(p) == -1)
+	{
+	   // creat the pipe , if pipe is built failed , exit .
+        perror("pip call");
+        exit(1);
+    }
+	
+    pid = fork();
+    if(pid != 0)
+	{// creat parent pid and child pid.
+        close(p[READ]);     //close parent pipe read 
+        dup2(p[WRITE], 1);
+        close(p[WRITE]);     //close parent pipe write
+        execlp(argv[1], argv[1], NULL);
+    }
+    else
+	{
+
+        close(p[WRITE]);//close child pipe write
+        dup2(p[READ],0);
+
+        close(p[READ]);//close child pipe read
+        execlp(argv[2], argv[2], NULL);
+    }
+    return 0;
+}
+
+
+
+
+
+
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+#define MSGSIZE 20
+#define READ 0 
+#define WRITE 1
+
+int main(int argc, char const *argv[])
+{
+    int p[2], bytes, res, c;
+    char inbuf[10240];
+    int pid;
+    printf("%c", 11);
+    if(pipe(p) == -1){// creat the pipe , if pipe is built failed , exit .
+        perror("pip call");
+        exit(1);
+    }
+    pid = fork();
+    if(pid != 0){// creat parent pid and child pid.
+        close(p[READ]);//close parent pipe read 
+        dup2(p[WRITE], 1);
+        close(p[WRITE]);//close parent pipe write
+        printf("123!\n");
+        execlp(argv[1], argv[1], NULL);
+        perror("execlp");//error output
+    }
+    else{
+        while(1){
+            res = read(p[READ], inbuf, 10240);
+                if(res>0)
+                    printf("%s\n", inbuf);
+            break;
+        }
+
+        close(p[WRITE]);//close child pipe write
+        
+        dup2(p[READ],0);
+
+        close(p[READ]);//close child pipe read
+
+        execlp(argv[2], argv[2], NULL);
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
