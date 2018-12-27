@@ -34,5 +34,5 @@ int main()
 		fflush(stdout);
 	}
 	close(new_fd);
-    return 0;  
+    return 0;
 }

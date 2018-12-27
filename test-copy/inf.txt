@@ -1,0 +1,12 @@
+.// 是目录. 
+[.//my_pow] 是普通文件-rwxr-xr-x  8584  hjh 
+[.//test1.c] 是普通文件-rw-r--r--  253  hjh 
+[.//aa.c] 是普通文件-rw-r--r--  190  hjh 
+[.//gtest.cpp] 是普通文件-rw-r--r--  0  hjh 
+[.//my_pow.c] 是普通文件-rw-r--r--  427  hjh 
+[.//get_file.cpp] 是普通文件-rw-r--r--  2620  hjh 
+[.//a.out] 是普通文件-rwxr-xr-x  13344  hjh 
+[.//aa] 是普通文件-rwxr-xr-x  9664  hjh 
+[.//test.c] 是普通文件-rw-r--r--  253  hjh 
+[.//Makefile] 是普通文件-rw-r--r--  62  hjh 
+[.//inf.txt] 是普通文件-rw-r--r--  0  hjh 
