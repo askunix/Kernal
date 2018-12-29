@@ -1,0 +1,12 @@
+# CMake最低版本号要求
+cmake_minimum_required(VERSION 2.8)
+
+#项目信息
+project (Demo1)
+#参数是Demo1，表示项目名称是Demo1
+
+#指定生成目标
+add_executable(Demo main.cc)
+#将名为main.cc的源文件编译成一个名称为Demo1的可执行文件
+
+
