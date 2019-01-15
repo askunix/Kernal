@@ -1,0 +1,45 @@
+inr
+
+
+
+
+
+
+r/././error
+error
+时间：Mon Jan 14 11:06:44 2019
+Mon Jan 14 11:06:44 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt日志名：./File/c.txt
+[error]串在原日志中出现次数：2
+*****************************************************
+
+时间：Mon Jan 14 11:08:59 2019
+Mon Jan 14 11:08:59 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt日志名：./File/c.txt
+[error]串在原日志中出现次数：3
+*****************************************************
+
+时间：Mon Jan 14 11:14:48 2019
+Mon Jan 14 11:14:48 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt日志名：./File/c.txt
+[error]串在原日志中出现次数：4
+*****************************************************
+
+时间：Mon Jan 14 11:17:09 2019
+Mon Jan 14 11:17:09 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt日志名：./File/c.txt
+[error]串在原日志中出现次数：5
+*****************************************************
+
+_时间：Mon Jan 14 11:19:00 2019
+Mon Jan 14 11:19:00 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt_日志名：./File/c.txt
+_[error]串在原日志中出现次数：6
+*****************************************************
+
+_时间：Mon Jan 14 11:19:05 2019
+Mon Jan 14 11:19:05 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt_日志名：./File/c.txt
+_[error]串在原日志中出现次数：7
+*****************************************************
+

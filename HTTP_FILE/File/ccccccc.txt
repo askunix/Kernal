@@ -1,0 +1,125 @@
+core
+
+
+
+
+error
+Number to be converted
+
+string
+
+String result
+
+radix
+
+Base of value; must be in the range 2 �C 36
+
+Remarks
+
+The _itoa, _i64toa, and _ui64toa function convert the digits of the given value argument to a null-terminated character string and stores the result (up to 33 bytes) in string. If radix equals 10 and value is negative, the first character of the stored string is the minus sign ( �C ). _itow, _i64tow, and _ui64tow are wide-character versions of _itoa, _i64toa, and _ui64toa respectively. 
+
+Generic-Text Routine Mappings
+
+
+
+
+
+
+Number to be converted
+
+string
+
+String result
+
+radix
+
+Base of value; must be in the range 2 �C 36
+
+Remarks
+
+The _itoa, _i64toa, and _ui64toa function convert the digits of the given value argument to a null-terminated character string and stores the result (up to 33 bytes) in string. If radix equals 10 and value is negative, the first character of the stored string is the minus sign ( �C ). _itow, _i64tow, and _ui64tow are wide-character versions of _itoa, _i64toa, and _ui64toa respectively. 
+
+Generic-Text Routine Mappings
+
+
+
+
+Number to be converted
+
+string
+
+String result
+
+radix
+
+Base of value; must be in the range 2 �C 36
+
+Remarks
+
+The _itoa, _i64toa, and _ui64toa function convert the digits of the given value argument to a null-terminated character string and stores the result (up to 33 bytes) in string. If radix equals 10 and value is negative, the first character of the stored string is the minus sign ( �C ). _itow, _i64tow, and _ui64tow are wide-character versions of _itoa, _i64toa, and _ui64toa respectively. 
+
+Generic-Text Routine Mappings
+
+
+
+
+
+
+
+Number to be converted
+
+string
+
+String result
+
+radix
+
+Base of value; must be in the range 2 �C 36
+
+Remarks
+
+The _itoa, _i64toa, and _ui64toa function convert the digits of the given value argument to a null-terminated character string and stores the result (up to 33 bytes) in string. If radix equals 10 and value is negative, the first character of the stored string is the minus sign ( �C ). _itow, _i64tow, and _ui64tow are wide-character versions of _itoa, _i64toa, and _ui64toa respectively. 
+
+Generic-Text Routine Mappings
+
+error
+
+
+
+
+error时间：Mon Jan 14 11:06:44 2019
+Mon Jan 14 11:06:44 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt日志名：./File/ccccccc.txt
+[error]串在原日志中出现次数：3
+*****************************************************
+
+时间：Mon Jan 14 11:08:59 2019
+Mon Jan 14 11:08:59 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt日志名：./File/ccccccc.txt
+[error]串在原日志中出现次数：4
+*****************************************************
+
+时间：Mon Jan 14 11:14:48 2019
+Mon Jan 14 11:14:48 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt日志名：./File/ccccccc.txt
+[error]串在原日志中出现次数：5
+*****************************************************
+
+时间：Mon Jan 14 11:17:09 2019
+Mon Jan 14 11:17:09 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt日志名：./File/ccccccc.txt
+[error]串在原日志中出现次数：6
+*****************************************************
+
+_时间：Mon Jan 14 11:19:00 2019
+Mon Jan 14 11:19:00 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt_日志名：./File/ccccccc.txt
+_[error]串在原日志中出现次数：7
+*****************************************************
+
+_时间：Mon Jan 14 11:19:05 2019
+Mon Jan 14 11:19:05 2019
+M.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt_日志名：./File/ccccccc.txt
+_[error]串在原日志中出现次数：8
+*****************************************************
+
