@@ -60,7 +60,8 @@ int main()
     if(sockCli == -1){
         perror("socket");
     }
-
+    
+    struct sockaddr_in addrSer;  //创建一个记录地址信息的结构体 
     addrSer.sin_family = AF_INET;    //使用AF_INET协议族 
     addrSer.sin_port = htons(5050);     //设置地址结构体中的端口号
     addrSer.sin_addr.s_addr = inet_addr("192.168.3.169");  //设置通信ip
@@ -82,3 +83,7 @@ int main()
     return 0;
 }
 ```
+
+
+
+
